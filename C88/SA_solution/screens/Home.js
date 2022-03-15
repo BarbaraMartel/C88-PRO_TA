@@ -15,19 +15,19 @@ export default class HomeScreen extends Component {
             <View style={styles.container}>
                 <SafeAreaView style={styles.droidSafeArea}/>
                     <View style={styles.titleBar}>
-                        <Text style={styles.titleText}>ISS Tracker App</Text>
+                        <Text style={styles.titleText}>Aplicación Rastreador de la EEI</Text>
                     </View>
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>ISS Location</Text>
-                        <Text style={styles.knowmore}>{"Know More --->"}</Text>
+                        <Text style={styles.routeText}>Localización de la EEI</Text>
+                        <Text style={styles.knowmore}>{"Más información --->"}</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>Meteors</Text>
-                        <Text style={styles.knowmore}>{"Know More --->"}</Text>
+                        <Text style={styles.routeText}>Meteoritos</Text>
+                        <Text style={styles.knowmore}>{"Más información --->"}</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>Updates</Text>
-                        <Text style={styles.knowmore}>{"Know More --->"}</Text>
+                        <Text style={styles.routeText}>Actualizaciones</Text>
+                        <Text style={styles.knowmore}>{"Más información --->"}</Text>
                     </TouchableOpacity>
             </View>
         );
