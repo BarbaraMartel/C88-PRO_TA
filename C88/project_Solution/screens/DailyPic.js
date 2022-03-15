@@ -10,7 +10,7 @@ export default class DailyPicScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>¡Pantalla foto diaria!</Text>
+                <Text>¡Pantalla imágenes diarias!</Text>
             </View>
         )
     }
