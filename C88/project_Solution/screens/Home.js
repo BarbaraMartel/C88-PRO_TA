@@ -23,7 +23,7 @@ export default class HomeScreen extends Component {
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>Mapa de las estrellas</Text>
+                        <Text style={styles.routeText}>Mapa estelar</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard}>
