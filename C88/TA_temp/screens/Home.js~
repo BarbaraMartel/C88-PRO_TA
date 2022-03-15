@@ -18,7 +18,7 @@ export default class HomeScreen extends Component {
                         <Text style={styles.titleText}>Aplicación Rastreador de la EEI</Text>
                     </View>
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text>Ubicación de la EEI</Text>
+                        <Text>Localización de la EEI</Text>
                     </TouchableOpacity>
             </View>
         );
