@@ -13,13 +13,13 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" screenOptions={{
+      <Stack.Navigator initialRouteName="Inicio" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="IssLocation" component={IssLocationScreen} />
-        <Stack.Screen name="Meteors" component={MeteorScreen} />
-        <Stack.Screen name="Updates" component={UpdateScreen} />
+        <Stack.Screen name="Inicio" component={HomeScreen} />
+        <Stack.Screen name="Localización de la EEI" component={IssLocationScreen} />
+        <Stack.Screen name="Meteoritos" component={MeteorScreen} />
+        <Stack.Screen name="Actualizaciones" component={UpdateScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
