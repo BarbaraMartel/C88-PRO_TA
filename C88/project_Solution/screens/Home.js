@@ -15,19 +15,19 @@ export default class HomeScreen extends Component {
             <View style={styles.container}>
                 <SafeAreaView style={styles.droidSafeArea} />
                     <View style={styles.titleBar}>
-                        <Text style={styles.titleText}>Stellar</Text>
-                        <Text style={styles.titleText}>App</Text>
+                        <Text style={styles.titleText}>Aplicación</Text>
+                        <Text style={styles.titleText}>Estelar</Text>
                     </View>
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>Spacecrafts</Text>
+                        <Text style={styles.routeText}>Naves espaciales</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>Star Map</Text>
+                        <Text style={styles.routeText}>Mapa de las estrellas</Text>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard}>
-                        <Text style={styles.routeText}>Daily Pictures</Text>
+                        <Text style={styles.routeText}>Imágenes diarias</Text>
                     </TouchableOpacity>
             </View>
         )
