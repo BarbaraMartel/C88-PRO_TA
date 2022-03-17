@@ -16,10 +16,10 @@ function App() {
       <Stack.Navigator initialRouteName="Inicio" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Inicio" component={HomeScreen} />
-        <Stack.Screen name="Localización de la EEI" component={IssLocationScreen} />
-        <Stack.Screen name="Meteoritos" component={MeteorScreen} />
-        <Stack.Screen name="Actualizaciones" component={UpdateScreen} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="ISSLocationScreen" component={IssLocationScreen} />
+        <Stack.Screen name="MeteorScreen" component={MeteorScreen} />
+        <Stack.Screen name="UpdateScreen" component={UpdateScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
