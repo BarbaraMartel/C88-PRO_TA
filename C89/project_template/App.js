@@ -16,10 +16,10 @@ function App() {
       <Stack.Navigator initialRouteName="Home" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="StarMap" component={StartMapScreen} />
-        <Stack.Screen name="DailyPic" component={DailyPicScreen} />
-        <Stack.Screen name="SpaceCraft" component={SpaceCraftScreen} />
+        <Stack.Screen name="Inicio" component={HomeScreen} />
+        <Stack.Screen name="MapaEstelar" component={StartMapScreen} />
+        <Stack.Screen name="ImágenesDiarias" component={DailyPicScreen} />
+        <Stack.Screen name="NavesEspaciales" component={SpaceCraftScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
